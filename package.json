@@ -1,6 +1,9 @@
 {
   "name": "first_app",
   "private": true,
+  "scripts": {
+    "env": "EDITOR='code --wait' rails credentials:edit"
+  },
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
